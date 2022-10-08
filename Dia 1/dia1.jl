@@ -1,5 +1,5 @@
 # Exibir valores e textos
-println("Ola Mundo!")
+print("Ola Mundo! \n")
 
 println(100)
 
@@ -12,6 +12,16 @@ printstyled("Ola Mundo!!!!\n"; color = :blue)
 printstyled("Ola Mundo!!!!!\n"; color = :yellow)
 
 # Operações matematicas basicas
+
+println("Adição: 2 + 2 = ", 2 + 2)
+
+println("Subtração: 3 - 2 = ", 3 - 2)
+
+println("Multiplicação: 2 * 3 = ", 2 * 3)
+
+println("Divisão: 4 / 2 = ", 4 / 2)
+
+println("O Resto da Divisão 5 / 2: 5 % 2 = ", 5 % 2)
 
 # Atribuição de valores e texto em Variaveis
 

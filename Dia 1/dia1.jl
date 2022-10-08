@@ -37,7 +37,16 @@ variavel3 = "O valor das duas variaveis é:"
 
 println(variavel3, " ", variavel1, " ", variavel2)
 println("$variavel3 $variavel1 $variavel2")
-printstyled("$variavel3 $variavel1 $variavel2\n"; color = :red)
+printstyled("$variavel3 $variavel1 $variavel2\n"; color=:red)
+
+## Extra
+α = 20
+δ = 30
+
+println("$π = ", π * 1)
+println("$ℯ = ", ℯ * 1)
+println("α = ", α)
+println("δ = ", δ)
 
 
 # Aplicação de operadores matematicas em Variaveis
@@ -47,7 +56,7 @@ println("Valor de a é: ", a)
 println("$a + $a = ", a + 2)
 println("$a - 1 = ", a - 1)
 println("$a * 2 = ", a * 2)
-println("$a ^ 2 = ", a ^ 2)
+println("$a ^ 2 = ", a^2)
 println("$a / 2 = ", a / 2)
 println("$a % 3 = ", a % 2)
 

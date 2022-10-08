@@ -16,15 +16,10 @@ printstyled("Ola Mundo!!!!!\n"; color=:yellow)
 # Operações matematicas basicas
 
 println("Adição: 2 + 2 = ", 2 + 2)
-
 println("Subtração: 3 - 2 = ", 3 - 2)
-
 println("Multiplicação: 2 * 3 = ", 2 * 3)
-
 println("Potenciação: 2 elevado ao cubo = 2 ^ 3 = 2 * 2 * 2 ", 2^3)
-
 println("Divisão: 4 / 2 = ", 4 / 2)
-
 println("O Resto da Divisão 5 / 2: 5 % 2 = ", 5 % 2)
 
 

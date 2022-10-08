@@ -43,8 +43,8 @@ printstyled("$variavel3 $variavel1 $variavel2\n"; color=:red)
 α = 20
 δ = 30
 
-println("$π = ", π * 1)
-println("$ℯ = ", ℯ * 1)
+println("π = ", π * 1)
+println("ℯ = ", ℯ * 1)
 println("α = ", α)
 println("δ = ", δ)
 

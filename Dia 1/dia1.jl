@@ -30,6 +30,17 @@ println("O Resto da Divisão 5 / 2: 5 % 2 = ", 5 % 2)
 
 
 # Atribuição de valores e texto em Variaveis
+
+variavel1 = 20
+variavel2 = 30
+variavel3 = "O valor das duas variaveis é:"
+
+println(variavel3, " ", variavel1, " ", variavel2)
+println("$variavel3 $variavel1 $variavel2")
+printstyled("$variavel3 $variavel1 $variavel2\n"; color = :red)
+
+
+# Aplicação de operadores matematicas em Variaveis
 a = 20
 b = 3
 println("Valor de a é: ", a)
@@ -47,8 +58,6 @@ println("$a * $b = ", a * b)
 println("$a ^ $b = ", a^b)
 println("$a / $b = ", a / b)
 println("$a % $b = ", a % b)
-
-# Aplicação de operadores matematicas em Variaveis
 
 # Definindo funções 1
 

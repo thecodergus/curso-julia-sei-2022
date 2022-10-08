@@ -1,14 +1,9 @@
 # Exibir valores e textos
 print("Ola Mundo! \n")
-
 println(100)
-
 println("Ola Mundo!! ", 10, ", o numero é ", 10)
-
 printstyled("Ola Mundo!!!\n"; color=:red)
-
 printstyled("Ola Mundo!!!!\n"; color=:blue)
-
 printstyled("Ola Mundo!!!!!\n"; color=:yellow)
 
 

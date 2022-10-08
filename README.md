@@ -1,1 +1,1 @@
-# curso-julia-sei-2022
+# Curso da Linguagem Julia na **S**emana de **E**ventos **I**ntegrados 2022 (**SEI** 2022)

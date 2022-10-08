@@ -50,8 +50,8 @@ println("δ = ", δ)
 
 
 # Aplicação de operadores matematicas em Variaveis
+## Interação com uma variavel
 a = 20
-b = 3
 println("Valor de a é: ", a)
 println("$a + $a = ", a + 2)
 println("$a - 1 = ", a - 1)
@@ -60,6 +60,8 @@ println("$a ^ 2 = ", a^2)
 println("$a / 2 = ", a / 2)
 println("$a % 3 = ", a % 2)
 
+## Interação com mais de uma variavel
+b = 3
 println("Valor de a e b é: $a e $b")
 println("$a + $b = ", a + b)
 println("$a - $b = ", a - b)

@@ -71,6 +71,19 @@ v2 = [1.2, 2.4, 3.2, 4.5, 5.2]
 # Textos
 v3 = ["a", "b", "c", "d"]
 
+# Gerar Vetores
+# De zeros
+v4 = zeros(10)
+println(v4)
+
+# Entre dois valores
+v4 = collect(100:120)
+println(v4)
+
+# De numertos aletorios
+v5 = rand(10)
+println(v5)
+
 
 ## Matrizes
 m1 = [
@@ -85,9 +98,26 @@ m2 = [
     "g" "h" "i"
 ]
 
+# Exibir matrizes
 show(stdout, "text/plain", m1)
 print("\n")
 show(stdout, "text/plain", m2)
+print("\n")
+
+# Gerar matrizes
+# De zeros
+m3 = zeros(3, 3)
+show(stdout, "text/plain", m3)
+print("\n")
+
+# Entre dois valores
+m4 = reshape(1:9, 3, 3)
+show(stdout, "text/plain", m4)
+print("\n")
+
+# De numertos aletorios
+m5 = rand(3, 3)
+show(stdout, "text/plain", m5)
 print("\n")
 
 
@@ -157,3 +187,14 @@ for numero in 50:70
         printstyled("$(numero) é impar!\n"; color=:blue)
     end
 end
+
+# Exercicio 2: Gere uma matriz de zeros de 8x8 e exiba ela
+em = zeros(8, 8)
+show(stdout, "text/plain", em)
+print("\n")
+
+# Exericio 3: Crie uma variavels com o ano atua, outra com o ano de seu nascimento e uma com seu nome e as exiba na tela seu nome e sua idade. Modelo exeplo: 'Gustavo - 24 anos'
+nascimento = 1998
+atual = 2022
+nome = "Gustavo"
+println("$(nome) - $(atual - nascimento)")

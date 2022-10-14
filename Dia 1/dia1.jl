@@ -9,7 +9,6 @@ printstyled("Ola Mundo!!!!!\n"; color=:yellow)
 
 
 # Operações matematicas basicas
-
 println("Adição: 2 + 2 = $(2 + 2)")
 println("Subtração: 3 - 2 = $(3 - 2)")
 println("Multiplicação: 2 * 3 = $(2 * 3)")
@@ -20,7 +19,6 @@ println("O Resto da Divisão 5 / 2: 5 % 2 = $(5 % 2)")
 
 
 # Atribuição de valores e texto em Variaveis
-
 variavel1 = 20
 variavel2 = 30
 variavel3 = "O valor das duas variaveis é:"
@@ -61,7 +59,6 @@ println("$(a) % $(b) = $(a % b)")
 
 
 ## Vetores
-
 # Inteiros
 v1 = [1, 2, 3, 4, 5]
 
@@ -103,6 +100,8 @@ show(stdout, "text/plain", m1)
 print("\n")
 show(stdout, "text/plain", m2)
 print("\n")
+
+
 
 # Gerar matrizes
 # De zeros

@@ -169,20 +169,32 @@ if 1 == 1
     println("È 1")
 end
 
-# Vetores
-if [1, 2, 3] == [3, 2, 1]
-    println("É igual")
-else
-    println("Não é igual")
-end
-
 # Com variaveis
 a = 1
 b = 2
 c = 1
 
+if a == c
+    println("$(a) e $(b) são iguais!")
+end
+
 if a != b
     println("$(a) e $(b) são diferentes!")
+end
+
+if a < b
+    println("$(a) é menor que $(b)")
+end
+
+if b > c
+    println("$(b) é maior que $(c)")
+end
+
+if a <= c && a < b
+    println("$(a) é menor ou igual a $(c) e $(a) é menor que $(b)")
+end
+if a < c || a < b
+    println("$(a) é menor ou igual a $(c) ou $(a) é menor que $(b)")
 end
 
 if a == b
@@ -193,6 +205,12 @@ else
     println("$(a), $(b) e $(c) são diferentes!")
 end
 
+# Vetores
+if [1, 2, 3] == [3, 2, 1]
+    println("É igual")
+else
+    println("Não é igual")
+end
 
 ## Estrutura de repetição
 
@@ -256,3 +274,9 @@ nascimento = 1998
 atual = 2022
 nome = "Gustavo"
 println("$(nome) - $(atual - nascimento)")
+
+c = [
+    1 1 1
+    1 1 1
+    1 1 1
+]

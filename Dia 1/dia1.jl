@@ -120,6 +120,27 @@ m5 = rand(3, 3)
 show(stdout, "text/plain", m5)
 print("\n")
 
+# Operações entre matrizes
+a = [
+    1 1 1
+    2 2 2
+    3 3 3
+]
+b = [2, 2, 2]
+
+show(stdout, "text/plain", a * b)
+print("\n")
+
+c = [
+    1 1 1
+    1 1 1
+    1 1 1
+]
+
+show(stdout, "text/plain", a + c)
+print("\n")
+
+
 
 ## Estrutura condicional
 
@@ -176,6 +197,23 @@ for i in a
     println("$(i)")
 end
 
+
+# Funções
+function mostrar_matriz(matriz)
+    show(stdout, "text/plain", matriz)
+    print("\n")
+end
+mostrar_matriz(zeros(2, 2))
+
+function soma(a, b)
+    return a + b
+end
+function subtracao(a, b)
+    return a - b
+end
+a = 5
+b = 3
+println("$(a) - $(b) = $(subtracao(a, b))")
 
 ## Exercicios
 

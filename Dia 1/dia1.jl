@@ -274,9 +274,3 @@ nascimento = 1998
 atual = 2022
 nome = "Gustavo"
 println("$(nome) - $(atual - nascimento)")
-
-c = [
-    1 1 1
-    1 1 1
-    1 1 1
-]

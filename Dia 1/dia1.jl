@@ -66,7 +66,7 @@ println("$(a) % $(b) = $(a % b)")
 v1 = [1, 2, 3, 4, 5]
 
 # Ponto Flutuantes, numeros quebrados
-v2 = [1.2, 2.4, 3.2, 4.5, 5.2] 
+v2 = [1.2, 2.4, 3.2, 4.5, 5.2]
 
 # Textos
 v3 = ["a", "b", "c", "d"]
@@ -74,14 +74,14 @@ v3 = ["a", "b", "c", "d"]
 
 ## Matrizes
 m1 = [
-    1 2 3;
-    4 5 6;
+    1 2 3
+    4 5 6
     7 8 9
 ]
 
 m2 = [
-    "a" "b" "c";
-    "d" "e" "f";
+    "a" "b" "c"
+    "d" "e" "f"
     "g" "h" "i"
 ]
 
@@ -91,7 +91,7 @@ show(stdout, "text/plain", m2)
 print("\n")
 
 
-# Estrutura condicional
+## Estrutura condicional
 
 # Numerico
 if 1 == 1
@@ -104,10 +104,56 @@ if [1, 2, 3] == [3, 2, 1]
 else
     println("Não é igual")
 end
- 
+
+# Com variaveis
 a = 1
 b = 2
+c = 1
 
 if a != b
     println("$(a) e $(b) são diferentes!")
+end
+
+if a == b
+    println("$(a) e $(b) são iguais")
+elseif a == c
+    println("$(a) e $(c) são iguais")
+else
+    println("$(a), $(b) e $(c) são diferentes!")
+end
+
+
+## Estrutura de repetição
+
+# for numerico
+for numero in 1:10
+    println("$(numero)")
+end
+
+for numero in 10:30
+    if numero % 2 == 0
+        println("$(numero) é par!")
+    else
+        println("$(numero) é impar!")
+    end
+end
+
+
+# For em um vetor
+a = [10, 22, 33, 45]
+
+for i in a
+    println("$(i)")
+end
+
+
+## Exercicios
+
+# Exercicio 1: Crie um for que exiba em azul (blue) os numeros pares e em vermelho(red) os numeros impares entre os numeros 50 e 70
+for numero in 50:70
+    if numero % 2 == 0
+        printstyled("$(numero) é par!\n"; color=:red)
+    else
+        printstyled("$(numero) é impar!\n"; color=:blue)
+    end
 end

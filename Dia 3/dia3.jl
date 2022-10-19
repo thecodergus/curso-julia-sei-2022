@@ -9,4 +9,5 @@ df = CSV.File("imdb_data.csv") |> DataFrame
 # df2 = select(df, [:rank, :movie_name, :movie_year])
 
 # people = DataFrame(ID = [1, 2], Name = ["Morgan Freeman", "Al Pacino"])
-df[df.movie_year .>= 2020, :]
+# df[df.movie_year .>= 2020, :]
+df[contains.(df.movie_name, "God"), :]
